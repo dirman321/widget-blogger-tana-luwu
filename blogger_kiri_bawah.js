@@ -18,12 +18,12 @@ else
 }
 
 
-var bloggerindonesia_bottom_leftCSS='#bloggerindonesia_bottom_left{position:fixed;';
-bloggerindonesia_bottom_leftCSS=bloggerindonesia_bottom_leftCSS+'_position:absolute;';
-bloggerindonesia_bottom_leftCSS=bloggerindonesia_bottom_leftCSS+'bottom:0px;';
-bloggerindonesia_bottom_leftCSS=bloggerindonesia_bottom_leftCSS+'left:0px;';
-bloggerindonesia_bottom_leftCSS=bloggerindonesia_bottom_leftCSS+'clip: inherit;';
-bloggerindonesia_bottom_leftCSS=bloggerindonesia_bottom_leftCSS+cot_t1_DOCtp;
+var bloggertanaluwu_bottom_leftCSS='#bloggertanaluwu_bottom_left{position:fixed;';
+bloggertanaluwu_bottom_leftCSS=bloggertanaluwu_bottom_leftCSS+'_position:absolute;';
+bloggertanaluwu_bottom_leftCSS=bloggertanaluwu_bottom_leftCSS+'bottom:0px;';
+bloggertanaluwu_bottom_leftCSS=bloggertanaluwu_bottom_leftCSS+'left:0px;';
+bloggertanaluwu_bottom_leftCSS=bloggertanaluwu_bottom_leftCSS+'clip: inherit;';
+bloggertanaluwu_bottom_leftCSS=bloggertanaluwu_bottom_leftCSS+cot_t1_DOCtp;
 
 var cot_tl_popCSS='#cot_tl_pop {background-color: transparent;';
 cot_tl_popCSS=cot_tl_popCSS+'position:fixed;';
@@ -38,7 +38,7 @@ cot_tl_popCSS=cot_tl_popCSS+'visibility: hidden;';
 cot_tl_popCSS=cot_tl_popCSS+'z-index: 100;';
 cot_tl_popCSS=cot_tl_popCSS+cot_t1_DOCtp2;
 
-document.write('<style type="text/css">'+bloggerindonesia_bottom_leftCSS+cot_tl_popCSS+'</style>');
+document.write('<style type="text/css">'+bloggertanaluwu_bottom_leftCSS+cot_tl_popCSS+'</style>');
 
 function cot_tl_bigPopup(url)
 {
@@ -54,6 +54,6 @@ function cot_tl_bigPopup(url)
 function cot(cot_tl_theLogo,cot_tl_LogoType,LogoPosition,theAffiliate)
 {
    var cot_tl_bigBaseURL= " http://blogertanaluwu.blogspot.co.id/";
-   document.write('<div id="bloggerindonesia_bottom_left">');
+   document.write('<div id="bloggertanaluwu_bottom_left">');
    document.write('<a href='+cot_tl_bigBaseURL+' onClick="return cot_tl_bigPopup(\''+cot_tl_bigBaseURL+'\')"><img src='+cot_tl_theLogo+' border="0" ></a>');document.write('</div>');
 }
